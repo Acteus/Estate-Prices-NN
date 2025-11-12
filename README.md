@@ -21,6 +21,11 @@ Create an intelligent neural network model that predicts property prices in the 
 - **Output**: Continuous price prediction (PHP)
 - **Network**: Multi-layer deep neural network with embedding layers
 
+### Dataset
+- **Source**: [Philippine Real Estate Dataset](https://www.kaggle.com/datasets/arloblanco/philippine-real-estate) on Kaggle
+- **Data File**: `data/PH_houses_v2.csv`
+- **Features**: Property characteristics, location data, pricing information
+
 ### Model Performance
 - **R² Score**: -1.1903 (needs improvement)
 - **MAPE**: 24.65% (Mean Absolute Percentage Error)
@@ -209,7 +214,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Dataset source: Philippine real estate listings
+- **Dataset**: [Philippine Real Estate Dataset](https://www.kaggle.com/datasets/arloblanco/philippine-real-estate) by arloblanco on Kaggle
 - Framework: TensorFlow/Keras team
 - Community: Open source contributors
 
