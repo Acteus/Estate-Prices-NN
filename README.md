@@ -45,8 +45,8 @@ Create an intelligent neural network model that predicts property prices in the 
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd Philippine-Property-Prediction-NN
+   git clone https://github.com/Acteus/Estate-Prices-NN
+   cd Estate-Prices-NN
    ```
 
 2. **Create virtual environment**
