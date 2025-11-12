@@ -172,7 +172,6 @@ models/*.onnx
 # data/*.hdf5
 
 # Generated outputs (uncomment if you don't want to track generated files)
-output/
 plots/
 # Keep documentation images - uncomment the line below if you want to ignore all images
 # *.png
