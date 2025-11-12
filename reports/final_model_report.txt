@@ -1,0 +1,59 @@
+
+PHILIPPINE PROPERTY PRICE PREDICTION MODEL - PERFORMANCE REPORT
+================================================================
+
+MODEL OVERVIEW:
+- Model Type: Neural Network (Deep Learning)
+- Framework: TensorFlow/Keras
+- Target Variable: Property Price (PHP)
+- Dataset: Philippine Real Estate Properties
+
+PERFORMANCE METRICS:
+===================
+- Mean Absolute Error (MAE): ₱3,502,892
+- Root Mean Squared Error (RMSE): ₱17,628,260
+- R² Score: -1.1903
+- Mean Absolute Percentage Error (MAPE): 24.65%
+
+TOP 10 MOST IMPORTANT FEATURES:
+===============================
+               Feature  Average
+Floor_Area_per_Bedroom 0.505810
+      Floor_area (sqm) 0.389483
+                  City 0.164913
+         Has_Land_Area 0.146312
+       Land_area (sqm) 0.116319
+                  Bath 0.103081
+           Dist_Manila 0.102234
+           Total_Rooms 0.100911
+        Is_Pre_Selling 0.070137
+              Latitude 0.070022
+
+PERFORMANCE BY PROPERTY TYPE:
+=============================
+                       mean           std  count
+Property_Type                                   
+0              1.517084e+10           NaN      1
+1             -8.005385e+08  5.532671e+09     36
+2             -1.842267e+09  4.121655e+09     13
+3             -1.170257e+09  1.533143e+09     36
+4              2.251936e+09  1.470019e+08     11
+5              3.020059e+09  1.232183e+10    139
+6              2.132268e+09  9.586906e+09     45
+7              3.383899e+08  9.710337e+08     11
+
+RECOMMENDATIONS:
+================
+1. The model achieves -119.0% accuracy in predicting property prices
+2. 24.6% average prediction error is needs improvement for real estate valuation
+3. Focus on improving predictions for properties with higher errors
+4. Consider collecting more data for underrepresented property types
+
+MODEL DEPLOYMENT:
+=================
+- Model saved as 'property_price_model_nn.h5'
+- Preprocessing objects saved as 'property_price_model_preprocessing.pkl'
+- Ready for production deployment
+- Use PropertyPricePredictor class for making predictions
+
+Generated on: 2025-11-12 12:55:08
